@@ -1,4 +1,4 @@
-Opa, esse é um repositório de configuração do neovim com base nas configurações do canal Manual Do Código
+Opa, esse é um repositório de configuração do neovim pra linux com base nas configurações do canal Manual Do Código
 Se você não estiver usando arch linux recomendo fazer a instalação manual que nesse caso seria:
 
 Instale o NodeJS e Npm
