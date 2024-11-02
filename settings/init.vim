@@ -117,11 +117,12 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 nmap <esc><esc> :qa!<enter>
 nmap te :tabe<CR>
-nmap td :bd<CR>
+nmap <C-w> :bd<CR>
 nmap th :split<CR>
 nmap tv :vsplit<CR>
 nmap tt :q<CR>
-nmap <C-s> <esc>:w<enter>
+nmap <C-s> :w<enter>
+nmap <C-tab> :bn<enter>
 
 
 
