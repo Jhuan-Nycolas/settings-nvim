@@ -1,0 +1,25 @@
+{
+    "languageserver": {
+        "pyright": {
+            "command": "pyright-langserver",
+            "args": ["--stdio"],
+            "filetypes": ["python"]
+        },
+        "tsserver": {
+            "command": "typescript-language-server",
+            "args": ["--stdio"],
+            "filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+        },
+        "sumneko_lua": {
+            "command": "lua-language-server",
+            "args": ["-E", "/path/to/main.lua"],
+            "filetypes": ["lua"]
+        },
+        "clangd": {
+            "command": "clangd",
+            "filetypes": ["c", "cpp", "objc", "objcpp"]
+        }
+    },
+    "snippets.ultisnips.pythonPrompt": false
+}
+
